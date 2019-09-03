@@ -29,7 +29,7 @@ def run_forecast():
     pyautogui.click(x=183, y=995, clicks=1, interval=0.5, button='left')
     
 def main():
-    print('5 seconds, Hours script will run !')
+    print('5 seconds, Forecast script will run !')
     countDown()
     run_forecast()
     return
