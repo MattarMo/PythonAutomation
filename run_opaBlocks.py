@@ -53,7 +53,7 @@ def run_opaBlocks():
     return
     
 def main():
-    print('5 seconds, Hours script will run !')
+    print('5 seconds, Opa blocks script will run !')
     countDown()
     run_opaBlocks()
     return
