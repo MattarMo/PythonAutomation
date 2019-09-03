@@ -15,11 +15,11 @@ def run_hours():
     # this script runs hours, exports data, refreshes time commiments excel sheet, copy and pastes current data to OFW2
     pyautogui.click(x=810, y=1053, clicks=1, interval=0.5, button='right')
     time.sleep(0.5)
-    pyautogui.click(x=753, y=626, clicks=1, interval=0.5, button='left')
+    pyautogui.click(x=775, y=585, clicks=1, interval=0.5, button='left')
     time.sleep(6)
     pyautogui.doubleClick(x=1749, y=478, interval=0.5, button='right')
     pyautogui.click(x=1786, y=605, clicks=1, interval=0.5, button='left')
-    time.sleep(8)
+    time.sleep(10)
     pyautogui.click(x=148, y=1000, clicks=1, interval=0.5, button='left')
     time.sleep(3)
     pyautogui.click(x=801, y=10, clicks=1, interval=0.5, button='left')
