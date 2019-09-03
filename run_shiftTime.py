@@ -62,7 +62,7 @@ def run_shiftTime():
     return
     
 def main():
-    print('5 seconds, Hours script will run !')
+    print('5 seconds, Shift Time script will run !')
     countDown()
     run_shiftTime()
     return
